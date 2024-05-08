@@ -88,4 +88,17 @@ footer {
     button {
         width: auto;
     }
+    /* Apply to the body to cover the whole page */
+body {
+    /* The URL path should be relative to the location of your CSS file */
+    background-image: url('example.jpg');
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Scale the image to cover the entire viewport */
+    background-attachment: fixed; /* Optional: Keeps the background image fixed during scrolling */
+    min-height: 100vh; /* Ensure at least full screen height */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
 }
