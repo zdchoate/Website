@@ -8,7 +8,7 @@
 /* Full-screen background setup */
 body {
     font-family: 'Arial', sans-serif;
-    background-image: url('images/example.jpg'); /* Path to your background image */
+    background-image: url('example.jpg'); /* Path to your background image */
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
